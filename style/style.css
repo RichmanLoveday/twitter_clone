@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-color: #1C1C1C;
+}
+
+.navigation-container {
+    width: 20%;
+    max-width: 100px;
+    min-width: 70px;
+    margin-left: 10px;
+    border-right: 2px solid #464444;
+}
+
+.main {
+    /* background-color: coral; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet-sidebar-container {
+    background-color: cyan;
+    flex: 1;
+    display: flex;
+}
+
+.tweets-sidebar {
+    width: 200px;
+    height: 500px;
+    margin: 20px;
+    background-color: bisque;
+}
+
+.tweets-list {
+    height: 500px;
+    margin: 20px;
+    /* background-color: #516bf0; */
+}
+
+.tweets-search-container {
+    height: 70px;
+    margin: 20px;
+    /* background-color: red; */
+
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #979797;
+}
+
+.tweets-search-container input {
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.tweets-search-container i {
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.tweet-container {
+    display: flex;
+    flex-direction: column;
+    /* height: 100px;*/
+    background-color: white;
+    margin: 10px;
+}
+
+/* Stying navigation */
+.navigation {
+    color: white;
+    margin-top: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.logo i {
+    font-size: 30px;
+}
+
+.home-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+
+    height: 40px;
+    margin-top: 20px;
+    border-right: 2px solid #00ADFF;
+}
+
+.home-link i {
+    margin-top: 10px;
+    color: #00ADFF;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+
+/*Styling List of tweets */
+.tweet-container {
+    border: 1px solid brown;
+    padding: 20px;
+    border: 1px solid #1C1C1C;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.tweet-user-info {
+    height: 20px;
+    background-color: blue;
+}
+
+.tweet-images-container {
+    height: 200px;
+    border: 1px solid brown;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
